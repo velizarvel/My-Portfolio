@@ -1,0 +1,253 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Veljko Potparic portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body data-spy='scroll' data-target='.navbar-fixed-top'>
+
+<header>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button id='toggbutton' type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#featured"><h1>Veljko Potparic <span class="subhead">Portfolio</span></h1></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#featured">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>        
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+
+  <div class="carousel fade" data-ride="carousel" id="featured">
+     <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#featured" data-slide-to="0" class="active"></li>
+      <li data-target="#featured" data-slide-to="1"></li>
+      <li data-target="#featured" data-slide-to="2"></li>
+      <li data-target="#featured" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active"><img src="https://s25.postimg.org/tyl1538v3/veljko4.jpg" alt="Eshaton live"></div> 
+      <div class="item"><img src="https://s25.postimg.org/52rlhlm73/veljko2.jpg" alt="Electric guitar"></div>
+      <div class="item"><img src="https://s25.postimg.org/6vui5x7dr/veljko3.jpg" alt="Acoustic guitar"></div>
+      <div class="item"><img src="https://s25.postimg.org/iiem71uov/veljko1.jpg" alt="Veljko live"></div>
+    </div><!-- carousel-inner -->
+
+    <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#featured" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div><!-- featured carousel -->
+</header>
+
+<div class="main">
+  <div class="page" id="about">
+    <div class="content container">
+        <div class="container">
+    <div class="page-header">
+      <h1>About me</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1 col-xs-2"> <!-- required for floating -->
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs tabs-left sideways">
+            <li class="active"><a href="#basic" data-toggle="tab">Basic</a></li>
+            <li><a href="#education" data-toggle="tab">Education</a></li>
+            <li id='skill-tab'><a href="#skills" data-toggle="tab">Skills</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 col-xs-10">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="basic">
+              <h2> I am a Front End Developer</h2>
+              <p> I enjoy taking complex problem and turning them into simple and beautiful web design. I also love the logic and structure of coding and always strive to write elegant and efficient code, whether it be HTML, CSS, JavaScript or jQuery. </p>
+              <p> I worked as a freelance Android developer and I've improved my skills in Java programming code. </p>
+              <p> My favorite hobby is playing guitar. It gives me the feeling of relaxation and has many unexpected tunes that actually very nice to hear and play from a song, which made me interested and curious to learn it. </p>
+            </div> <!-- Basic -->
+
+            <div class="tab-pane" id="education">
+              <h2> Education</h2>
+              <ul style="list-style-type:none">
+                <li> <i class="fa fa-graduation-cap" aria-hidden="true"></i> <strong> 2016 </strong> - Faculty of Computer Science </br> <em> Specialists studies </em> </li>
+                <li> <i class="fa fa-graduation-cap" aria-hidden="true"></i> <strong> 2013 </strong> - The Academy of Criminalistic and Police Studies </br> <em>  Master Degree </em></li>
+               <li> <i class="fa fa-graduation-cap" aria-hidden="true"></i> <strong> 2008 </strong> - Faculty of Security </br> <em>  Basic Academic Studies</em> </li>
+              </ul>
+            </div> <!-- Education -->
+
+            <div class="tab-pane" id="skills">
+              <h2> Skills </h2>
+                <div class="col-md-3 col-sm-4 col-xs-6">
+                <button type=button class="btn btn-lg btn-img">   <i class="fa fa-html5 fa-4x" style="color:red;" aria-hidden="true"></i> </br> HTML5 </button>
+                </div>
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                 <button type=button class="btn btn-lg btn-img">  <i class="fa fa-css3 fa-4x" style="color:blue;" aria-hidden="true"></i> </br> CSS3 </button>
+                </div>
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class='svg' src="http://imgh.us/javascript_1.svg"></br>JavaScript</button> 
+                  </div>
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class='svg' src="http://imgh.us/jquery.svg"></br>jQuery</button> 
+                  </div>
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class='svg' src="http://imgh.us/sass.svg"></br>Sass</button> 
+                  </div>
+                  <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class='svg' src="http://imgh.us/less.svg"></br>Less</button> 
+                  </div>
+                  <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class='svg' src="http://imgh.us/node-js.svg"></br>NodeJS</button> 
+                  </div>
+                  <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class='svg' src="http://imgh.us/angular.svg"></br>AngularJS</button>
+                </div> 
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class ='svg' src="http://imgh.us/bootstrap.svg"></br>Bootstrap</button>
+                </div>
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                  <button type=button class="btn btn-lg btn-svg btn-img"> <img class ='svg' src="http://imgh.us/php-logo_1.svg"></br>PHP</button>
+                </div>            
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                <button type=button class="btn btn-lg btn-img"> <i class="fa fa-leaf fa-4x" style="color: green;" aria-hidden="true"></i> </br>mongo<span style="color:brown;">DB </span></button>
+                </div>
+                <div class="col-md-3 col-sm-4  col-xs-6">
+                <button type=button class="btn btn-lg btn-img">  <i class="fa fa-android fa-4x" style="color:#A4C639;" aria-hidden="true"></i></br> Android</button>
+                </div>
+                  
+            </div> <!-- Skills -->
+          
+          </div> <!-- tab-content -->
+        </div> <!-- col-xs-7 -->
+
+        <!-- Veljko image background -->
+        <div class="col-md-5 col-sm-6">
+          <img class="img-responsive img-bg" alt="Veljko Potparic" src="https://s25.postimg.org/u6mydqhen/veljko_vector.png">
+        </div>
+
+        </div> <!-- row -->
+
+        </div> <!-- container nav -->
+
+    </div><!-- content container -->
+
+  </div><!-- About page -->
+
+  <div class="page" id="projects">
+    <div class="content container">
+      <h1>Projects</h1>
+      <div class="row">
+      <div  class="col-md-4 col-sm-6">
+        <a  href="https://codepen.io/veljkoo/full/mPGWoe/" target="_blank">
+        <img id="disney" class = "img-responsive img-center" src="https://s25.postimg.org/8dfyhhc4f/walt_disney_black.png" alt="Walt Disney tribute page" title="Walt Disney tribute page"> 
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <a  href="http://eshaton.rs/" target="_blank">
+      
+        <img id="eshaton" class="img-responsive img-center" src="https://s25.postimg.org/xys6hbzbz/eshaton_black.png" alt="eshaton.rs" title="Eshaton page"> 
+        </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6">
+      <a href="http://autoaukcija.rs/" target="_blank">
+       <img id="autoaukcija" class="img-responsive img-center" src="https://s25.postimg.org/6pi6oyd27/autoaukcija_black.jpg" alt="autoaukcija.rs" title="Auto aukcija web site"> 
+       </a>
+
+      </div>
+      <div class="col-md-4 col-sm-6">
+       <img class="img-responsive img-center" src="https://placeholdit.imgix.net/~text?txtsize=42&txt=450%C3%97300&w=450&h=300" alt="450x300"> 
+
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <img class="img-responsive img-center" src="https://placeholdit.imgix.net/~text?txtsize=42&txt=450%C3%97300&w=450&h=300" alt="450x300">
+
+      </div>
+      <div class="col-md-4 col-sm-6">
+       <img class="img-responsive img-center" src="https://placeholdit.imgix.net/~text?txtsize=42&txt=450%C3%97300&w=450&h=300" alt="450x300"> 
+
+      </div>
+  
+      </div><!-- row -->   
+    </div><!-- content container -->
+  </div><!-- services page -->
+
+  <div class="page" id="contact">
+    <div class="container">
+      <h1>Contact
+      <span>
+        <a href="https://www.facebook.com/veljko.potparic" target="_blank"><button type="button" class="btn btn-default fb"> <i class="fa fa-facebook fa-2x" aria-hidden="true"></i> </button></a>
+        <a href="https://www.linkedin.com/in/veljko-potparic-4a58ba125" target="_blank"><button type="button" class="btn btn-default linkedin"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i> </button></a>
+        <a href="https://github.com/veljkoo" target="_blank"><button type="button" class="btn btn-default git"> <i class="fa fa-github fa-2x" aria-hidden="true"></i> </button></a>
+        <a href="https://codepen.io/veljkoo/" target="_blank"><button type="button" class="btn btn-default cpen"> <i class="fa fa-codepen fa-2x" aria-hidden="true"></i> </button></a>
+      </span>
+      </h1> 
+<div class="inner contact">
+                
+  <!-- Form Area -->
+  <div class="contact-form">
+   <!-- Form -->
+    <form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbyUJO70MEeC-0vPGobDmABLFcsT6dAGsWIZ-95SLlhhMAfWOlc/exec">
+    <!-- Left Inputs -->
+      <div class="col-md-6 col-xs-12 wow animated slideInLeft" data-wow-delay=".5s">
+        <!-- Name -->
+        <input type="text" name="name" id="name" required="required" class="form icon" placeholder="&#xf007; Name" />
+        <!-- Email -->
+        <input type="email" name="mail" id="email" required="required" class="form icon" placeholder='&#xf0e0; Email (yourname@email.com)' />
+        <!-- Subject -->
+        <input type="text" name="subject" id="subject" required="required" class="form icon" placeholder=" &#xf15c; Subject" />
+      </div><!-- End Left Inputs -->
+        <!-- Right Inputs -->
+      <div class="col-md-6 col-xs-12 wow animated slideInRight" data-wow-delay=".5s">
+        <!-- Message -->
+        <textarea name="message" id="message" class="form textarea icon"  placeholder='&#xf086; Message'></textarea>
+      </div><!-- End Right Inputs -->
+        <!-- Bottom Submit -->
+      <div class="relative fullwidth col-xs-12"> 
+        <!-- Send Button -->
+        <button id='send-message' type="submit" id="submit" name="submit" class="form-btn semibold"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send</button> 
+        </div><!-- End Bottom Submit -->
+        <!-- Clear -->
+      <div class="clear"></div>
+    </form>
+
+    <!-- Your Mail Message -->
+      <div id='suc-msg' style="display:none;" class="alert alert-success fade in">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>Success!</strong> This alert box could indicate a successful or positive action.
+  </div>
+    </div><!-- End Contact Form Area -->
+    </div><!-- End Inner -->
+
+
+    </div><!-- container -->
+  </div><!-- contact page -->
+</div><!-- main -->
+
+<footer>
+  <div class="content container-fluid">
+    <div class="text-center">
+       <p><small>Coded by <a href="https://www.freecodecamp.com/veljkoo" target="_blank">Veljko Potparic</a>.</small></p>
+    </div><!-- row -->
+  </div><!-- content container -->
+</footer>
+</body>
+</html>
