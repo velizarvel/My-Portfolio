@@ -16,27 +16,32 @@ $('#skills button').each(function(){
 
 	// Projects
 
-	$('#disney').hover(function(){
-		$('#disney').attr('src','https://s25.postimg.org/ic0x3yljz/walt_disney_page.png');
-	},
-	function(){
-		$('#disney').attr('src', 'https://s25.postimg.org/8dfyhhc4f/walt_disney_black.png');
-	});
+// 	$('#disney').hover(function(){
+// 		$('#disney').attr('src','https://s25.postimg.org/ic0x3yljz/walt_disney_page.png');
+// 	},
+// 	function(){
+// 		$('#disney').attr('src', 'https://s25.postimg.org/8dfyhhc4f/walt_disney_black.png');
+// 	});
 
-	$('#eshaton').hover(function(){
-		$('#eshaton').attr('src','https://s25.postimg.org/5zy0qgxpb/eshaton_page.png');
-	},
-	function(){
-		$('#eshaton').attr('src', 'https://s25.postimg.org/xys6hbzbz/eshaton_black.png');
-	});
+// 	$('#eshaton').hover(function(){
+// 		$('#eshaton').attr('src','https://s25.postimg.org/5zy0qgxpb/eshaton_page.png');
+// 	},
+// 	function(){
+// 		$('#eshaton').attr('src', 'https://s25.postimg.org/xys6hbzbz/eshaton_black.png');
+// 	});
 
-	$('#autoaukcija').hover(function(){
-		$('#autoaukcija').attr('src','https://s25.postimg.org/pgk3z47mn/autoaukcija.jpg');
-	},
-	function(){
-		$('#autoaukcija').attr('src', 'https://s25.postimg.org/6pi6oyd27/autoaukcija_black.jpg');
-	});
+	// $('#autoaukcija').hover(function(){
+	// 	$('#autoaukcija').attr('src','https://s25.postimg.org/pgk3z47mn/autoaukcija.jpg');
+	// },
+	// function(){
+	// 	$('#autoaukcija').attr('src', 'https://s25.postimg.org/6pi6oyd27/autoaukcija_black.jpg');
+	// });
 
+  $('#projects img').each(function(){
+    $(this).hover(function(){
+        $(this).toggleClass ('btn-img');
+        });
+});
 	
 
 	"use strict";
